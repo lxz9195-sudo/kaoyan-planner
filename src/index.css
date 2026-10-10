@@ -1,0 +1,39 @@
+:root {
+  font-family: 'Aptos', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  color: #29342e;
+  background: #f2f4f1;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 0;
+
+  --surface: #ffffff;
+  --ink: #202923;
+  --muted: #818b84;
+  --line: #e4e8e3;
+  --green: #202923;
+  --lime: #c4d995;
+}
+
+* { box-sizing: border-box; }
+
+html { min-width: 320px; min-height: 100%; background: #f4f6f2; }
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(135deg, #f5f6f3 0%, #eff2ee 100%);
+}
+
+button, input, select { font: inherit; }
+button:focus-visible, a:focus-visible { outline: 2px solid #a5bf70; outline-offset: 3px; }
+
+#root { min-height: 100vh; }
+
+@media (max-width: 760px) {
+  body { background-image: linear-gradient(180deg, #f5f6f3 0%, #eff2ee 100%); }
+}
